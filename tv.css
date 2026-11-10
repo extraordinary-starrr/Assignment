@@ -1,0 +1,128 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+/* .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.tv{
+    background-color: rgb(238, 229, 229);
+    width: 930px;
+    height: 530px;
+    margin-left: 400px;
+}
+
+.tv-box{
+    border-radius: 1px;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    border: 5px solid black;
+    position: relative;
+    margin-left: 10px;
+    /* margin-top: 10px; */
+}
+
+.speaker1{
+    background-color: black;
+    width: 150px;
+    height: 250px;
+    border-radius: 1px;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.speaker2{
+    background-color: black;
+    width: 150px;
+    height: 250px;
+    border-radius: 1px;
+    position: absolute;
+    top: 20%;
+    right: 75%;
+}
+
+.speaker3{
+    /* background-color: black; */
+    width: 300px;
+    height: 180px;
+    border-radius: 1px;
+    position: absolute;
+    top: 20%;
+    /* left: 25%; */
+    right: 31%;
+    border: 20px solid black;
+}
+
+.circle{
+    position: absolute;
+    /* animation: circle 0.3s linear infinite; */
+
+}
+
+.circle1{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    margin: 8px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.circle2{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    background-color: black;
+    /* justify-content: center; */
+    top: 30px;
+    left: 30px;
+    animation: circle 0.3s linear infinite;
+}
+
+
+.stand{
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 110%;
+    left: 45%;
+    transform-origin: center;
+}
+
+.stand1{
+    /* transform: rotate(120deg); */
+    border-radius: 50%;
+    width: 125px;
+    height: 25px;
+    top: 115%;
+    left: 29%;
+}
+
+.stand2{
+    transform: rotate(240deg);
+    top: 30%;
+    left: 48%;
+    height: 0px;
+}
+
+@keyframes circle {
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(3px);
+    }
+}
+
